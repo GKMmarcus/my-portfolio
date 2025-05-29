@@ -41,7 +41,7 @@ export const Projects = () => {
                         <p className ="text-gray-400 mb-3">An e-commerce application designed to streamline the process of browsing, customizing, and purchasing furniture online</p>
                         <div>
                             {["Java"].map((tech,key) => (
-                                <span key = {key} className = "bg-blue-500/10 text-red-500 py-1 px-3 rounded-full text-sm hover:bg-red-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+                                <span key = {key} className = "bg-red-500/10 text-red-500 py-1 px-3 rounded-full text-sm hover:bg-red-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
                                         {tech}
                                 </span>
                             ))}
