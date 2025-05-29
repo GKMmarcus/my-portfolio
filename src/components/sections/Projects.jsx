@@ -17,7 +17,7 @@ export const Projects = () => {
                             ))}
                         </div>
                         <div className = "flex justify-between items-center">
-                            <a href = "#" className = "text-red-400 hover:text-red-300 transition-colors"> View Project </a>
+                            <a href = "https://github.com/GKMmarcus/Stress-and-Anxiety-Management-App" className = "text-red-400 hover:text-red-300 transition-colors"> View Project </a>
                         </div>
                     </div>
 
