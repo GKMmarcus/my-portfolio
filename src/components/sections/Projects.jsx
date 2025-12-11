@@ -10,7 +10,7 @@ export const Projects = () => {
                         <h3 className ="text-xl font-bold mb-2">Sports Sales Dashboard</h3>
                         <p className ="text-gray-400 mb-3">A data dashboard that shows sportwear trends from 2023 to help optimize business decsions for 2024</p>
                         <div>
-                            {["PHP","MariaDB","HTML","CSS"].map((tech,key) => (
+                            {["Tableau","Excel"].map((tech,key) => (
                                 <span key = {key} className = "bg-red-500/10 text-red-500 py-1 px-3 rounded-full text-sm hover:bg-red-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
                                         {tech}
                                 </span>
